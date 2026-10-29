@@ -1,0 +1,26 @@
+@server_HostAddress = http://localhost:5176
+
+GET {{server_HostAddress}}/api/books
+Accept: application/json
+
+###
+
+GET {{server_HostAddress}}/api/authors
+Accept: application/json
+
+###
+
+GET {{server_HostAddress}}/api/categories
+Accept: application/json
+
+###
+
+GET {{server_HostAddress}}/api/customers
+Accept: application/json
+
+###
+
+GET {{server_HostAddress}}/api/orders
+Accept: application/json
+
+###
